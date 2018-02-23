@@ -1,0 +1,36 @@
+body{background:white;
+	 margin:0 auto;
+    }
+
+span{font-size:120%}
+
+a{text-decoration: none;}
+
+#gloval{width:1366px;
+        margin:0 auto;
+	    box-shadow:0px 0.1px 9px 0px;}
+		
+.grupo {width:1000px;
+		padding:10px;
+		margin:20px 0px 0px 150px;
+		display:inline-block;
+		float:left;
+		box-shadow: 0 0 1px rgba(0,0,0,0.5);}
+
+.izquierda{width:800px;
+           padding:0px 0px 0px 0px;
+		   float:left;
+		   display:inline-block;
+		   box-shadow: 0 0 1px rgba(0,0,0,0.5);}
+		   
+.derecha{width:200px;
+           padding:0px 0px 0px 0px;
+		   float:left;
+		   display:inline-block;
+		   box-shadow: 0 0 1px rgba(0,0,0,0.5);}
+
+ul.contenido{box-shadow: 0 0 1px rgba(0,0,0,0.5);
+            margin:0px 0px 0px 0px;}
+			
+li.modificar{display:inline-block;}
+li.eliminar{display:inline-block;}

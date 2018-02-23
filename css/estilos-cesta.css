@@ -1,0 +1,218 @@
+body{ margin:0 auto;
+      background-color: rgb(231,238,247);}
+
+span{font-size:120%}
+
+a{text-decoration: none;}
+
+#gloval{width:100%;
+        max-width:1366px;
+        margin:0 auto;}
+
+.centro {width:100%;
+		padding:40px 0px 0px 0px;
+		margin:0px 0px 0px 0px;
+		}	
+		
+.titulo{width:100%;
+        padding:0px 0px 0px 0px;
+		margin:0px 0px 0px 0px;
+		font-family: "proxima_nova_ltsemibold","Helvetica Neue",Verdana,Arial,sans-serif;
+        font-size:200%;}	
+
+.grupo {width:70%;
+		padding:0px 0px 0px 0px;
+		margin:0px 15% 20px 15%;
+		display:block;
+		border-radius:4px;
+		background:white;
+		box-shadow: 0 0 1px rgba(0,0,0,0.5);}
+		
+.izquierda-1{display:inline-block; 
+             background:white;
+			 margin:0px 0px 0px 0px; 
+			 padding:0px 0px 0px 0px;
+			 width:30%;}
+			 
+.imagen{width: 240px;
+        height: 240px;
+		margin:0px 0px 0px 0px; 
+		padding:0px 0px 0px 0px;
+		display:inline-block;
+		background:url(../imagenes/camara3.png);}
+.carrito_vacio {
+    width: 70%;
+    height: 40px;
+    background: #008aff;
+    color: white;
+    font-size: 12px;
+	border-radius:4px;
+    margin: 20px 0px 20px 15%;
+    line-height: 36px;
+}
+.ojo{display:inline-block; width:50px; float:left; margin:0px 0px 0px 2.5%;}	
+.vacio{display:inline-block; width:30%; float:left;}
+
+.izquierda-2{display: inline-block; 
+		     margin:0px 0px 0px 0px; 
+			 padding:0px 0px 0px 0px;
+			 width:69%;
+			 background:white;}
+					
+.izquierda-2 ul li.nombre-producto{display:inline-block; width:90%; font-family: "proxima_nova_ltsemibold","Helvetica Neue",Verdana,Arial,sans-serif; font-size:150%;}	
+.izquierda-2 ul li.pregunta-10{display:inline-block; width:120px; float:left; color:#999; }
+.izquierda-2 ul li.respuesta-10{display:inline-block; width:65%;}	
+.izquierda-2 ul li.respuesta-10 a{list-style:none; color:#999;}					
+.izquierda-2 ul li.respuesta-10 div {display:inline-block;}	
+.izquierda-2 ul li.respuesta-10 div.mes-año {display:block;}   
+
+.eliminar{display:inline-block; 
+           margin:0px; 
+		   padding:2px;
+		   border-radius:8%;
+	       box-shadow: 0 0 12px rgba(0,0,0,0.5);
+		   color:black;
+		   cursor:pointer;}
+.eliminar:hover{background:#808080;}		   
+.eliminar a{text-decoration:none; color:#999;}
+.eliminar a:hover{color:white;}	
+		   
+.grupo-1 {width:70%;
+		  padding:10px 0px 10px 0px;
+		  margin:0px 15% 20px 15%;
+		  display:block;
+		  border-radius:4px;
+		  background:#ddd;
+		  position:relative;
+		  box-shadow: 0 0 1px rgba(0,0,0,0.5);}		   
+		  
+.titulo-1{color: #666;
+	      font-size:120%;
+          margin: 15px 0px 15px 0px;}
+
+.comprar{width:100%; display:block;}
+		  
+.total-compra-envio{width: 90%;
+                    height: 40px;
+                    background: white;
+					border-radius:4px;
+					color: #999;
+					font-size: 16px;
+					line-height: 36px;
+					display:block;
+					margin: 15px 0% 15px 2.5%;
+					box-shadow: 0 0 1px rgba(0,0,0,0.5);}
+	
+.total-pedido{width: 90%;
+			  height: 41px;
+			  background: #39b54a;
+			  border-radius:4px;
+			  color: white;
+			  font-size: 16px;
+			  line-height: 36px;
+			  display:block;
+			  margin: 15px 0% 15px 2.5%;
+			  box-shadow: 0 0 1px rgba(0,0,0,0.5);}
+
+.cuenta-izquierda{display:inline-block; width:90%; float:left;}
+.cuenta-derecha{display:inline-block; width:8%; float:left;}				  
+			  
+.grupo-2 {width:70%;
+		  padding:0px 0px 0px 0px;
+		  margin:0px 0px 20px 15%;
+		  display:inline-block;
+		  float:left;
+		  background:#ddd;
+		  color: #666;
+		  border-radius:4px;
+		  box-shadow: 0 0 1px rgba(0,0,0,0.5);}		
+		  
+.titulo-2{color: #666;
+          margin: 15px 0px 15px 15px;}
+
+.grupo-2 ul {display:inline-block;}
+.grupo-2 ul li.pregunta{display:block;}
+.grupo-2 ul li.respuesta {display:block; background:white; }				
+.grupo-2 ul li.respuesta input{width:100%; 
+							margin:0px 0px; 
+							padding:7px;
+							border:none;
+							border-radius:8px; 
+							box-shadow: 0 0 2px rgba(0,0,0,0.5)}
+
+.grupo-2 ul li.comprar{ list-style:none; width:100%; margin:0px;}
+.grupo-2 ul li.comprar input{padding:10px 50px 10px 50px;
+                          border-radius:8px;
+					      color:white;
+					      font-size:15px;
+                          background: -moz-linear-gradient(top,#545454 0,#333 100%);
+                          background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#545454),color-stop(100%,#333));
+                          background: -webkit-linear-gradient(top,#545454 0,#333 100%);
+                          background: -o-linear-gradient(top,#545454 0,#333 100%);
+                          background: -ms-linear-gradient(top,#545454 0,#333 100%);
+                          background: linear-gradient(top,#545454 0,#333 100%);}
+.grupo-2 ul li.comprar input:hover{opasity:0.85;}
+
+.error{padding:20px 10px;
+       background:#FFEEEE;
+	   border:1px solid #D70404;
+	   border-radius:10px;
+	   color:#D70404;
+	   max-width:400px;}
+							
+.grupo-3 {width:70%;
+		  padding:0px 0px 0px 0px;
+		  margin:0px 0px 20px 15%;
+		  display:inline-block;
+		  float:left;
+		  background:#ddd;
+		  color: #666;
+		  border-radius:4px;
+		  box-shadow: 0 0 1px rgba(0,0,0,0.5);}		
+		  
+.titulo-3{color: #666;
+          margin: 15px 0px 15px 15px;}
+		  
+.grupo-3 ul {display:inline-block;}
+.grupo-3 ul li.pregunta{display:block;}
+.grupo-3 ul li.respuesta {display:block;
+						background:white; }
+.grupo-3 ul li.respuesta input{width:100%; 
+							margin:0px 0px; 
+							padding:7px;
+							border:none;
+							border-radius:8px; 
+							box-shadow: 0 0 2px rgba(0,0,0,0.5)}
+							
+.grupo-4 {width:70%;
+		  padding:0px 0px 0px 0px;
+		  margin:0px 0px 20px 15%;
+		  display:inline-block;
+		  float:left;
+		  background:#ddd;
+		  color: #666;
+		  border-radius:4px;
+		  box-shadow: 0 0 1px rgba(0,0,0,0.5);}		
+		  
+.titulo-4{color: #666;
+          margin: 15px 0px 15px 15px;}
+		  
+.grupo-4 ul {display:inline-block;}
+.grupo-4 ul li.pregunta{display:block;}
+.grupo-4 ul li.respuesta {display:block;
+						background:white; }
+.grupo-4 ul li.respuesta input{width:100%; 
+							margin:0px 0px; 
+							padding:7px;
+							border:none;
+							border-radius:8px; 
+							box-shadow: 0 0 2px rgba(0,0,0,0.5)}
+
+.grupo-4 ul li.comprar{ list-style:none; width:100%; margin:0px;}
+.grupo-4 ul li.comprar input{padding:10px 50px 10px 50px;
+                          border-radius:8px;
+						  border-color:#04B404;
+					      color:white;
+					      font-size:15px;
+                          background:#39b54a;}
+.grupo-4 ul li.comprar input:hover{background:#04B404;}

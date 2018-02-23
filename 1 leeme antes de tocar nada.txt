@@ -1,0 +1,4 @@
+todo funciona bien, solo tienes que cambiar la conexion para que conecte con la base de datos.
+
+si te sale un error de que no se pueden utilizar las sesiones y la cache es problema del hosting. falla 
+debido a los header: location y es porque hay servidores que no permiten programarlos.

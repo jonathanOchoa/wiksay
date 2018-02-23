@@ -1,0 +1,186 @@
+
+span{font-size:120%}
+
+a{text-decoration: none;}
+
+#gloval{width:100%;
+        max-width:1366px;
+        margin:0 auto;}	
+		
+.centro-abajo{width:100%;}		
+
+.centro-2{margin:20px 0px 1px 33%;
+          padding:5px 0px 5px 0px;
+          background:white;
+	      width:450px;
+		  box-shadow: 0 0 1px rgba(0,0,0,0.5);}
+			
+.centro-2-1{margin:0px 0px 0px 0px;
+			padding:0px 0px 5px 0px;
+            color:black;
+            font-family: "proxima_nova_ltsemibold","Helvetica Neue",Verdana,Arial,sans-serif;
+			font-size:200%;}	
+			  
+.centro-3 {background:#fafafa;
+           width:100%;
+		   padding:0px 0px 0px 0px;
+		   margin:0px 0px 0px 0%;
+		   display:inline-block;}		
+			  
+#corazon{color:#E40C17;
+         padding:0px 0px 0px 10px;}
+
+.contenido{display:block;
+			width: 450px;
+			vertical-align: top;
+			margin:0px 0px 40px 33%;
+			padding:0px;
+			background:white;
+			box-shadow: 0 0 2px rgba(0,0,0,0.2);}
+
+/* inicio informacion que esta encima de la imagen del producto*/	
+
+.informacion1{width:100%; 
+              display:block;}
+
+.imagen-tienda{display: inline-block;
+               width: 50px;
+		       height:50px;
+			   float:left;
+		       background-size: 100% 100%;
+               vertical-align: top;
+               margin:0px;
+		       padding:10px 10px 10px 10px;}
+
+.imagen-tienda figure{width: 100%;
+		            height:100%;
+                    padding:0px;
+			        margin: 0px;}
+ 
+.imagen-tienda figure img{width: 100%;
+		               height:100%;
+                       border-radius:50%;
+                       box-shadow: 0 0 2px rgba(0,0,0,0.5);}
+
+.informacion2{display:inline-block;}	
+			 
+.nombre-tienda{display:block;
+               margin:14px 0px 0px 0px;
+			   font-family: "proxima_nova_ltsemibold","Helvetica Neue",Verdana,Arial,sans-serif;
+			   font-size:90%;
+			   color:black;}
+			   
+.nombre-producto{display:inline-block;
+				margin:8px 0px 0px 0px;
+			    font-family: "proxima_nova_ltsemibold","Helvetica Neue",Verdana,Arial,sans-serif;
+			    font-size:90%;
+			    color:#8c9ca9;}			   
+/* final informacion que esta encima de la imagen del producto*/	
+
+/* inicio imagen del producto*/					   
+.imagen-producto{display: inline-block;
+                 width: 100%;
+                 vertical-align: top;
+                 padding:0px;
+				 margin:0px 0px 0px 0px;}
+
+.imagen-producto figure{width: 100%;
+                      padding:0px;
+			          margin: 0px;}
+ 
+.imagen-producto figure img{width: 100%;
+                          border-radius:4px;
+                          box-shadow: 0 0 2px rgba(0,0,0,0.2);}		   			  
+/* final imagen del producto*/
+					   
+/* inicio de la informacion que esta debajo de la imagen del producto*/
+.informacion3{display:block;
+              margin:0px 0px 30px 0px;}	
+			  
+.informacion4{display:inline-block;
+              margin:0px 0px 0px 0px; 
+			  }	
+			  
+div.boton-megusta{display:inline-block; margin:0px 0px 0px 0px;}
+
+li.megusta-si {font-size:30px; color:#E40C17;}
+li.megusta-si input{background-color:white;
+                 position:absolute;
+				 opacity:0;
+				 cursor:pointer;
+				 padding:0px;
+				 margin:0px;
+                 width:30px;
+				 height:30px;}
+				 
+li.megusta-no {font-size:30px; color:#9197a3;}				 
+li.megusta-no input{background-color:white;
+                 position:absolute;
+				 opacity:0;
+				 cursor:pointer;
+				 padding:0px;
+				 margin:0px;
+                 width:30px;
+				 height:30px;}
+				 
+.mostrar-numero-megustas{display:inline-block; 
+                         color:#9197a3;
+						 font-family: "proxima_nova_ltsemibold","Helvetica Neue",Verdana,Arial,sans-serif;
+		                 font-size:90%;}
+
+.precio{display:inline-block;
+		font-family: "proxima_nova_ltsemibold","Helvetica Neue",Verdana,Arial,sans-serif;
+		font-size:140%;
+		color:#9197a3;
+		float:right;
+		margin:20px 20px 0px 0px;}
+		   
+/* final de la informacion que esta debajo de la imagen del producto*/
+
+/*Empieza la parte responsive
+*****************************************/
+@media screen and (max-width:1100px){
+.centro-2{margin:20px 0px 1px 30%;}
+.contenido{margin:0px 0px 40px 30%;}
+}
+@media screen and (max-width:1000px){
+.centro-2{margin:20px 0px 1px 25%;}
+.contenido{margin:0px 0px 40px 25%;}
+}
+@media screen and (max-width:900px){
+.centro-2{margin:20px 0px 1px 20%;}
+.contenido{margin:0px 0px 40px 20%;}
+}
+@media screen and (max-width:800px){
+.centro-2{margin:20px 0px 1px 15%;}
+.contenido{margin:0px 0px 40px 15%;}
+}
+@media screen and (max-width:700px){
+.centro-2{margin:20px 0px 1px 10%;}
+.contenido{margin:0px 0px 40px 10%;}
+}
+@media screen and (max-width:600px){
+.centro-2{margin:20px 0px 1px 5%;}
+.contenido{margin:0px 0px 40px 5%;}
+}
+@media screen and (max-width:500px){
+.centro-2{margin:0px 0px 40px 0%; width:100%;}
+.contenido {width: 90%;}
+
+.imagen-tienda{width: 40px;
+		       height:40px;}
+.nombre-tienda{font-size:80%;}
+.nombre-producto{margin:5px 0px 0px 0px;font-size:80%;}
+
+.informacion4{margin:0px 0px 0px -35px;}
+
+li.megusta-si {font-size:25px;}
+li.megusta-si input{width:25px; height:25px;}
+				 
+li.megusta-no {font-size:25px;}				 
+li.megusta-no input{width:25px; height:25px;}
+
+.mostrar-numero-megustas{font-size:80%;}	
+
+.precio{font-size:110%;
+}		  

@@ -1,0 +1,156 @@
+body{margin:0 auto;
+     background-color: rgb(231,238,247);}
+
+span{font-size:120%}
+a{text-decoration: none;}
+
+#gloval{width:100%;
+        max-width:1366px;
+        margin:0 auto;
+	    box-shadow:0px 0.1px 9px 0px;}
+		
+li{list-style:none;}	
+
+.centro{
+	width:100%;
+	margin:80px 0px 0px 0px;
+	font-family: "proxima_nova_ltsemibold","Helvetica Neue",Verdana,Arial,sans-serif;
+	color: #666;
+	position: absolute;}
+	
+.titulo{padding:0px 0px 0px 0px;
+        font-family: "proxima_nova_ltsemibold","Helvetica Neue",Verdana,Arial,sans-serif;
+        font-size:200%;
+		background:;}
+
+.centro-agrupacion{width:80%; margin:0px 10% 0px 10%;}
+
+.centro-1{display:block; margin:0px;}
+
+.centro-1 form.ordenar-imagen{margin:2px;display:inline-block;}
+
+.div-informacion-numerico{margin:0px 0px 0px 0px;
+						  width:100%;
+                          color:white;
+						  border-radius:4px;
+                          background: -moz-linear-gradient(top,#444 0,#333 100%);
+                          background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#444),color-stop(100%,#333));
+                          background: -webkit-linear-gradient(top,#444 0,#333 100%);
+                          background: -o-linear-gradient(top,#444 0,#333 100%);
+                          background: -ms linear gradient(top,#444 0,#333 100%);
+                          background: linear-gradient(top,#444 0,#333 100%)}
+						  
+.div-informacion-numerico p{padding:10px 0px 10px 5%;
+                           font-family: "proxima_nova_ltsemibold","Helvetica Neue",Verdana,Arial,sans-serif;
+						   font-size:125%;}
+
+.imagen{width:225px;
+        margin:0px ;
+        height: 225px;
+		display:inline-block;
+		border-radius: 4px;
+        box-shadow: 0 0 2px rgba(0,0,0,0.5);
+		background:url(../imagenes/camara3.png);}
+		
+.imagen-imagen-modificar, .imagen-imagen{width:225px; height:225px ;position:absolute; opacity:0;}
+
+.enviar-imagen input{padding:10px 42px 10px 42px;
+                     border-radius:8px;
+					 color:white;
+					 font-size:15px;
+					 box-shadow: 0 0 2px rgba(0,0,0,0.5);
+                     background: -moz-linear-gradient(top,#444 0,#333 100%);
+                     background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#444),color-stop(100%,#333));
+                     background: -webkit-linear-gradient(top,#444 0,#333 100%);
+                     background: -o-linear-gradient(top,#444 0,#333 100%);
+                     background: -ms linear gradient(top,#444 0,#333 100%);
+                     background: linear-gradient(top,#444 0,#333 100%)}	
+.enviar-imagen input:hover{opacity:0.85;}
+
+.nota{color:#8c9ca9;}					 
+					 
+.centro-2{display:block; margin:0px; width:100%;}
+.centro-2 ul {display:inline-block;}
+.centro-2 ul li.pregunta, .centro-2 ul li.pregunta-colores, .centro-2 ul li.pregunta-tallas{display:block;}
+.centro-2 ul li.respuesta {display:block;
+						background:white; }
+.centro-2 ul li.respuesta input, .centro-2 ul li.respuesta select{width:100%; 
+															margin:0px 0px; 
+															padding:7px;
+															border:none;
+															border-radius:8px; 
+															box-shadow: 0 0 2px rgba(0,0,0,0.5)}
+.colores input[type=checkbox] {display:none; }
+.colores input[type=checkbox]:checked + label:before {content: '✓';
+	                                               font-size: 15px;
+										           padding:5px 0px 0px 5px;
+	                                               color: black;
+												   width:30px;
+												   display:inline-block;
+												   position:static;}	
+												   
+.Negro{background:black;width:35px; height:35px; border-radius:50%; display:inline-block;}
+.Blanco{background:white;width:35px; height:35px; border-radius:50%; border:1px solid; display:inline-block;}
+.Gris{background:#949494;width:35px; height:35px; border-radius:50%; display:inline-block;}
+.Marron{background:brown;width:35px; height:35px; border-radius:50%; display:inline-block;}
+.Beige{background:beige;width:35px; height:35px; border-radius:50%; border:1px solid; display:inline-block;}
+.Rojo{background:red;width:35px; height:35px; border-radius:50%; display:inline-block;}
+.Rosa{background:pink;width:35px; height:35px; border-radius:50%; display:inline-block;}
+.Naranja{background:#F60;width:35px; height:35px; border-radius:50%; display:inline-block;}
+.Amarillo{background:#FBF703;width:35px; height:35px; border-radius:50%; display:inline-block;}
+.Verde{background:green;width:35px; height:35px; border-radius:50%; display:inline-block;}
+.Azul{background:#0066c0;width:35px; height:35px; border-radius:50%; display:inline-block;}
+.Morado{background:purple;width:35px; height:35px; border-radius:50%; display:inline-block;}
+.Oro{background:#DA9100;width:35px; height:35px; border-radius:50%; display:inline-block;}
+.Plata{background:#D7DCDE;width:35px; height:35px; border-radius:50%; display:inline-block;}
+.Claro{background:white;width:35px; height:35px; border-radius:50%; border:1px solid; display:inline-block;}
+.Multiples{width:35px; height:35px; border-radius:50%; display:inline-block; 
+           background: -moz-linear-gradient(top,red 0,#FB09F7 20%,#3A09FB 40%,#09FBEE 60%,#09FB41 80%,yellow 100%);
+           background: -webkit-gradient(top,red 0,#FB09F7 20%,#3A09FB 40%,#09FBEE 60%,#09FB41 80%,yellow 100%);
+           background: -webkit-linear-gradient(top,red 0,#FB09F7 20%,#3A09FB 40%,#09FBEE 60%,#09FB41 80%,yellow 100%);
+           background: -o-linear-gradient(top,red 0,#FB09F7 20%,#3A09FB 40%,#09FBEE 60%,#09FB41 80%,yellow 100%);
+           background: -ms linear gradient(top,red 0,#FB09F7 20%,#3A09FB 40%,#09FBEE 60%,#09FB41 80%,yellow 100%);
+           background: linear gradient(top,red 0,#FB09F7 20%,#3A09FB 40%,#09FBEE 60%,#09FB41 80%,yellow 100%);}
+
+.descripcion {width:88%; 
+              height:100px;
+			  margin:0px 5% 20px 5%;}														
+.descripcion textarea{width:100%; 
+                     height:100px; 
+					 margin:0px; 
+					 padding:7px;
+					 border:none;
+					 border-radius:8px;
+			         box-shadow: 0 0 2px rgba(0,0,0,0.5)}
+
+
+.enviar-producto{ width:100%;margin:0px;}
+.enviar-producto input{padding:10px 8px 10px 8px;
+                     border-radius:8px;
+					 color:white;
+					 font-size:15px;
+					 box-shadow: 0 0 2px rgba(0,0,0,0.5);
+                     background: -moz-linear-gradient(top,#444 0,#333 100%);
+                     background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#444),color-stop(100%,#333));
+                     background: -webkit-linear-gradient(top,#444 0,#333 100%);
+                     background: -o-linear-gradient(top,#444 0,#333 100%);
+                     background: -ms linear gradient(top,#444 0,#333 100%);
+                     background: linear-gradient(top,#444 0,#333 100%)}
+.enviar-producto input:hover{opacity:0.85;}
+
+/*Empieza la parte responsive
+*****************************************/
+@media screen and (max-width:600px){
+.titulo{padding:5px 0px 5px 0px; margin:-20px 0px -20px 0px;background:white;}
+.centro-agrupacion{ margin:0px 0px 0px 0px ;width:100%;}
+}
+@media screen and (max-width:450px){
+.titulo{padding:5px 0px 5px 0px; margin:0px 0px -20px 0px;background:white;}
+		
+.centro-2 ul li.pregunta, .centro-2 ul li.pregunta-colores, .centro-2 ul li.pregunta-tallas{display:block; width:100%; margin:0px 0px 0px -8% ;}
+.centro-2 ul li.respuesta, .centro-2 ul li.respuesta-colores, .centro-2 ul li.respuesta-tallas{display:block; width:100%; margin:0px 0px 0px -8%;}
+
+.tallas{display:block; padding:15px 0px 15px 0px; margin:0px 0px 0px -60px;}
+
+.centro-2 ul li.enviar-producto{display:block; width:97%; margin:0px 0px 0px -22%;}
+}					 

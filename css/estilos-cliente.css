@@ -1,0 +1,538 @@
+﻿body{background:white;
+	 margin:0 auto;}
+
+a{text-decoration: none;}
+
+#gloval{width:100%;
+        max-width:1366px;
+        margin:0 auto;
+	    box-shadow:px;}
+			 
+/* inicio de la tab de murooooooooooooooooooooooooooooooooooooooooo*/
+.centro-3 {background:#fafafa;
+          display:inline-block;
+          padding:0px 0px 0px 0px;
+		  width:100%;}
+				
+.contenido-muro{display:block;
+				width: 450px;
+				vertical-align: top;
+				margin:40px 0px 40px 33%;
+				padding:0px;
+				background:white;
+				box-shadow: 0 0 2px rgba(0,0,0,0.2);}		   
+
+.informacion1-muro{width:100%; 
+				   display:block;}
+
+.imagen-tienda-muro{display: inline-block;
+				    width: 50px;
+				    height:50px;
+				    float:left;
+				    background-size: 100% 100%;
+				    vertical-align: top;
+				    margin:0px;
+				    padding:10px 10px 10px 10px;}
+
+.imagen-tienda-muro figure{width: 100%;
+						  height:100%;
+						  padding:0px;
+						  margin: 0px;}
+ 
+.imagen-tienda-muro figure img{width: 100%;
+						     height:100%;
+						     border-radius:50%;
+						     box-shadow: 0 0 2px rgba(0,0,0,0.5);}
+
+.informacion2-muro{display:inline-block;}	
+			 
+.nombre-tienda-muro{display:block;
+				    margin:14px 0px 0px 0px;
+				    font-family: "proxima_nova_ltsemibold","Helvetica Neue",Verdana,Arial,sans-serif;
+				    font-size:90%;
+				    color:black;}
+			   
+.nombre-producto-muro{display:inline-block;
+					  margin:8px 0px 0px 0px;
+					  font-family: "proxima_nova_ltsemibold","Helvetica Neue",Verdana,Arial,sans-serif;
+					  font-size:90%;
+					  color:#8c9ca9;}			
+
+.imagen-producto-muro{display: inline-block;
+					  width: 100%;
+					  vertical-align: top;
+					  padding:0px;
+					  margin:0px 0px 0px 0px;}
+
+.imagen-producto-muro figure{width: 100%;
+						    padding:0px;
+						    margin: 0px;}
+	 
+.imagen-producto-muro figure img{width: 100%;
+							  border-radius:4px;
+							  box-shadow: 0 0 2px rgba(0,0,0,0.2);}	
+
+.informacion3-muro{display:block; margin:0px 0px 30px 0px;}	
+			  
+.informacion4-muro{display:inline-block; margin:0px 0px 0px 0px; }	
+			  
+div.boton-megusta-muro{display:inline-block; margin:0px 0px 0px 0px;}
+
+li.megusta-si-muro {font-size:30px; color:#E40C17; list-style:none;}
+li.megusta-si-muro input{background-color:white;
+					   position:absolute;
+					   opacity:0;
+					   cursor:pointer;
+					   padding:0px;
+					   margin:0px;
+					   width:30px;
+					   height:30px;}
+				 
+li.megusta-no-muro {font-size:30px; color:#9197a3; list-style:none;}				 
+li.megusta-no-muro input{background-color:white;
+					   position:absolute;
+					   opacity:0;
+					   cursor:pointer;
+					   padding:0px;
+					   margin:0px;
+					   width:30px;
+					   height:30px;}
+				 
+.mostrar-numero-megustas-muro{display:inline-block; 
+							  color:#9197a3;
+							  font-family: "proxima_nova_ltsemibold","Helvetica Neue",Verdana,Arial,sans-serif;
+							  font-size:90%;}
+
+.precio-muro{display:inline-block;
+			 font-family: "proxima_nova_ltsemibold","Helvetica Neue",Verdana,Arial,sans-serif;
+			 font-size:140%;
+			 color:#9197a3;
+			 float:right;
+			 margin:20px 20px 0px 0px;}				 
+/* final de la tab de murooooooooooooooooooooooooooooooooooooooooo*/
+/*inicio avisos*/
+.proceso{padding:10px 10px;
+		background:white;
+		border:1px solid #D1D5D7;
+		border-radius:0px;
+		color:#A7ACAE;
+		font-size:60;
+		max-width:400px;
+		margin:15px 0px 0px 0px;}
+
+
+.proceso1{padding:10px 10px;
+		background:#FFEEEE;
+		border:1px solid #D70404;
+		border-radius:0px;
+		color:#D70404;
+		max-width:400px;
+		margin:15px 0px 0px 0px;}
+/*fin avisos*/		
+/* inicio de la tab de productoooooooooooooooooooooooooooooooooooooooo*/
+.centro-2 {width:100%;
+          max-width:1366px;
+		   padding:0px;
+		   margin:0px 0px 0px 0px;
+		   display:inline-block;
+		   background:#fafafa;}
+		   
+.centro-2-1 { width:100%;
+              max-width:1366px;
+              padding:0px 0px 0px 0px;
+	          margin:10px 0px 0px 0px;
+			  border-radius:0px;}	
+			  
+.centro-2 {width:100%;
+          max-width:1366px;
+		   padding:0px;
+		   margin:0px 0px 0px 0px;
+		   display:inline-block;}
+		   
+.centro-2-1 { width:100%;
+              max-width:1366px;
+              padding:0px 0px 0px 0px;
+	          margin:10px 0px 0px 0px;
+			  border-radius:0px;}						  
+	   
+.tabs-nav {padding: 0px 0px 15px 0px;
+           list-style:none;
+		   overflow: auto;
+		   margin: 0px 0px 10px 12% ;
+		   border-radius:0px;
+		   position:relative;}
+		  
+.tabs-nav li{float:left;
+		   margin:0px;
+		   padding: 15px 30px;
+		   border-radius:8px;
+		   font-family: "proxima_nova_ltsemibold","Helvetica Neue",Verdana,Arial,sans-serif;
+		   font-size:100%;}
+		   		
+.tabs-nav li:hover{background:#e4e4e4;
+                  opacity:0.8;}
+			
+.tabs-nav a  {text-decoration: none;
+             color:dimgray;
+             }
+.centro-3-producto{margin-top:0px;
+					width:100%;
+					max-width:1366px;
+					position:relative;
+					padding:0px 0px 15px 0px;
+					margin:1px 0px 0px 0px;
+					background: #fafafa;} 
+				
+.article-producto{background:white;
+                  display: inline-block;
+				  width:100%;
+                  max-width: 225px;
+                  position: relative;
+                  vertical-align: top;
+		          margin:10px 10px 10px 6px;
+                  padding:0px;box-shadow: 0 0 2px rgba(0,0,0,0.2);}
+
+.article-producto:hover{filter: alpha(opacity=70); 
+                        opacity: 0.8; }
+ 
+.article-producto figure{float:left; padding: 0px; margin: 0px; }
+
+.article-producto figure img{height:225px; width:100%;}
+
+.article-producto figure img:hover{border: 0px;
+                                 box-shadow: 0 0 20px rgba(0,0,0,0.5);}
+							   
+.inferior-centro-1 {width: 225px;
+                   margin-top:0px;
+                   list-style:none;
+		           overflow: auto;
+				   cursor:pointer;}
+
+p.nombre-tiendas{display:block; 
+                 margin: 5px 0px 0px 5px; 
+				 color:black;
+				 font-family: "proxima_nova_ltsemibold","Helvetica Neue",Verdana,Arial,sans-serif;
+				 font-size:120%;}
+				 
+p.nombre-producto{display:block; 
+                  margin: 5px 0px 0px 5px; 
+				  color:#627f9a;
+				  font-family: "proxima_nova_ltsemibold","Helvetica Neue",Verdana,Arial,sans-serif;
+				  font-size:95%;}
+
+p.precio{display:block; margin: 5px 0px 5px 5px; font-size:20px;}		
+
+/* final de la tab de productoooooooooooooooooooooooooooooooooooooooo*/
+		
+/* inicio de la tab de tidaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+.inferior-centro-2 {width: 225px;
+                   margin-top:0px;
+                   list-style:none;
+		           overflow: auto;
+				   cursor:pointer;}                   
+
+p.nombre-tienda{display:block; 
+                margin: 5px 0px 0px 5px; 
+				font-family: "proxima_nova_ltsemibold","Helvetica Neue",Verdana,Arial,sans-serif;
+				font-size:120%;}
+
+p.categoria{display:block;
+			color:#627f9a; 
+            margin: 5px 0px 5px 5px;
+			font-family: "proxima_nova_ltsemibold","Helvetica Neue",Verdana,Arial,sans-serif;
+			font-size:95%;}
+
+.article-tienda{background:white;
+                display: inline-block;
+				width:225px;
+				max-width:225px;
+                position: relative;
+                vertical-align: top;
+		        margin:10px 10px 10px 6px;
+                padding:0px;
+				box-shadow: 0 0 2px rgba(0,0,0,0.2);}
+
+.article-tienda:hover{filter: alpha(opacity=70); 
+                      opacity: 0.8; }
+ 
+.article-tienda figure{float:left; padding: 0; margin: 0px;
+				      border-radius:50%;}
+
+.article-tienda figure img{height:225px; width:225px; border: 0px; 
+				border-radius:50%;}
+
+.article-tienda figure img:hover{border:0px;
+                               box-shadow: 0 0 20px rgba(0,0,0,0.5);}
+/* final de la tab de tidaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/	
+
+/* inicio buscador productos y tiendas*/		   
+.buscador-sinfiltros{padding:0px 0px 20px 0px;
+					 width:100%; 
+                     margin:-17px 0px 0px 0px;}			
+					 
+.buscador{background:white;
+          display:inline-block;
+	      position:relative;
+		  margin:0px 0px 0px 0px;
+		  }
+.buscador-sinfiltros input.buscar{border:none;
+								border-radius:0px 0px 0px 0px;
+								font-size:120%;
+								color:dimgray;
+								padding:21px 15px 13px 15px;
+								box-shadow: 0 0 2px rgba(0,0,0,0.5);}
+
+.buscador-sinfiltros input{border:none;
+                          border-radius:0px 0px 0px 0px;
+						  font-size:200%;
+			              padding:10px 400px 10px 10px;
+						  margin:0px -4px 0px 0px;
+			              box-shadow: 0 0 2px rgba(0,0,0,0.5);}
+						  
+ .buscador-sinfiltros input:hover{opacity:0.8;}
+/* final buscador productos y tiendas*/	
+
+/* INICO centro-3*/
+.filtros-busqueda{padding:15px 0px 15px 0px; 
+                  margin:-17px 0px 0px 0px;}
+
+.separador{display:inline-block;}
+
+.categoria{display:inline-block; 
+         color:black; 
+		 margin:10px 30px 0px 0px;
+		 font-family: "proxima_nova_ltsemibold","Helvetica Neue",Verdana,Arial,sans-serif;
+		 font-size:95%;}
+		 
+.categoria:hover {color:#808080;}
+		   
+.categoria ul.sub-categoria{background:white;
+							width:210px;
+							margin:-2px 0px 0px 0px;
+							padding:10px;
+							display:none;
+							height:200px; 
+							border: 1px solid #D0EAF8;
+							overflow-y: auto;
+							box-shadow: 0 0 20px rgba(0,0,0,0.5);}
+							
+.categoria:hover ul.sub-categoria{display:block; 
+								 position:absolute; 
+								 z-index:1;}	
+			 
+.categoria:hover ul.sub-categoria li.sub-categoria-listado{padding:10px 0px 10px 0px;
+														 display:block; 
+														 color:black;
+														 border-bottom:1px solid #e4e4e4;}
+.categoria:hover ul.sub-categoria li.sub-categoria-listado:hover{background:#e4e4e4;}												   
+.categoria:hover ul.sub-categoria li.sub-categoria-listado a {list-style:none;
+														   color:black;}
+.colores{display:inline-block; 
+         color:black; 
+		 margin:10px 30px 0px 0px;
+		 font-family: "proxima_nova_ltsemibold","Helvetica Neue",Verdana,Arial,sans-serif;
+		 font-size:95%;}
+		 
+.colores:hover {color:#808080;}
+		   
+.colores ul.sub-colores{background:white;
+                       width:210px;
+                       margin:-2px 0px 0px 0px;
+                       padding:10px;
+			           display:none;
+				       height:200px; 
+	                   border: 1px solid #D0EAF8;
+		               overflow-y: auto;
+				       box-shadow: 0 0 20px rgba(0,0,0,0.5);}
+							
+.colores:hover ul.sub-colores{display:block; 
+                             position:absolute; 
+						     z-index:1;}	
+			 
+.colores:hover ul.sub-colores li.sub-colores-listado{padding:10px 0px 10px 0px;
+                                                   display:block; 
+										           color:black;
+										           border-bottom:1px solid #e4e4e4;}
+.colores:hover ul.sub-colores li.sub-colores-listado:hover{background:#e4e4e4;}												   
+.colores:hover ul.sub-colores li.sub-colores-listado a {list-style:none;
+													 color:black;}		  
+		  
+.Negro{background:black;width:35px; height:35px; border-radius:50%; display:inline-block;}
+.Blanco{background:white;width:35px; height:35px; border-radius:50%; border:1px solid; display:inline-block;}
+.Gris{background:#949494;width:35px; height:35px; border-radius:50%; display:inline-block;}
+.Marron{background:brown;width:35px; height:35px; border-radius:50%; display:inline-block;}
+.Beige{background:beige;width:35px; height:35px; border-radius:50%; border:1px solid; display:inline-block;}
+.Rojo{background:red;width:35px; height:35px; border-radius:50%; display:inline-block;}
+.Rosa{background:pink;width:35px; height:35px; border-radius:50%; display:inline-block;}
+.Naranja{background:#F60;width:35px; height:35px; border-radius:50%; display:inline-block;}
+.Amarillo{background:#FBF703;width:35px; height:35px; border-radius:50%; display:inline-block;}
+.Verde{background:green;width:35px; height:35px; border-radius:50%; display:inline-block;}
+.Azul{background:#0066c0;width:35px; height:35px; border-radius:50%; display:inline-block;}
+.Morado{background:purple;width:35px; height:35px; border-radius:50%; display:inline-block;}
+.Oro{background:#DA9100;width:35px; height:35px; border-radius:50%; display:inline-block;}
+.Plata{background:#D7DCDE;width:35px; height:35px; border-radius:50%; display:inline-block;}
+.Claro{background:F5FFFA;width:35px; height:35px; border-radius:50%; border:1px solid; display:inline-block;}
+.Multiples{width:35px; height:35px; border-radius:50%; display:inline-block; 
+           background: -moz-linear-gradient(top,red 0,#FB09F7 20%,#3A09FB 40%,#09FBEE 60%,#09FB41 80%,yellow 100%);
+           background: -webkit-gradient(top,red 0,#FB09F7 20%,#3A09FB 40%,#09FBEE 60%,#09FB41 80%,yellow 100%);
+           background: -webkit-linear-gradient(top,red 0,#FB09F7 20%,#3A09FB 40%,#09FBEE 60%,#09FB41 80%,yellow 100%);
+           background: -o-linear-gradient(top,red 0,#FB09F7 20%,#3A09FB 40%,#09FBEE 60%,#09FB41 80%,yellow 100%);
+           background: -ms linear gradient(top,red 0,#FB09F7 20%,#3A09FB 40%,#09FBEE 60%,#09FB41 80%,yellow 100%);
+           background: linear gradient(top,red 0,#FB09F7 20%,#3A09FB 40%,#09FBEE 60%,#09FB41 80%,yellow 100%);} 												   
+		
+.tallas{display:inline-block; 
+        color:black; 
+		margin:10px 30px 0px 0px;
+		font-family: "proxima_nova_ltsemibold","Helvetica Neue",Verdana,Arial,sans-serif;
+		font-size:95%;}
+.tallas:hover {color:#808080;}
+		   
+.tallas ul.sub-tallas{background:white;
+                     margin:-2px 0px 0px 0px;
+                     padding:10px 0px 10px 0px;
+			         display:none;
+					 width:240px;
+				     height:200px; 
+	                 border: 1px solid #D0EAF8;
+		             overflow-y: auto;
+					 list-style:none;
+				     box-shadow: 0 0 20px rgba(0,0,0,0.5);}
+
+.tallas:hover ul.sub-tallas{display:block; 
+                           position:absolute; 
+						   z-index:1;}	
+						   
+.tallas ul.sub-tallas li{list-style:none;}			 
+.tallas:hover ul.sub-tallas li.sub-tallas-listado{padding:10px 0px 10px 0px;
+                                                display:block; 
+										        color:black;
+										        border-bottom:1px solid #e4e4e4;}
+.tallas:hover ul.sub-tallas li.sub-tallas-listado:hover{background:#e4e4e4;}	
+.tallas:hover ul.sub-tallas li.sub-tallas-listado a {list-style:none;
+                                                  color:black;}
+
+.lugar{display:inline-block; 
+        color:black; 
+		margin:10px 0px 0px 0px;
+		font-family: "proxima_nova_ltsemibold","Helvetica Neue",Verdana,Arial,sans-serif;
+		font-size:95%;}
+.lugar:hover {color:#808080;}
+		   
+.lugar ul.sub-lugar{background:white;
+                     margin:-2px 0px 0px 0px;
+                     padding:10px 0px 10px 0px;
+			         display:none;
+					 width:240px;
+				     height:200px; 
+	                 border: 1px solid #D0EAF8;
+		             overflow-y: auto;
+					 list-style:none;
+				     box-shadow: 0 0 20px rgba(0,0,0,0.5);}
+
+.lugar:hover ul.sub-lugar{display:block; 
+                           position:absolute; 
+						   z-index:1;}	
+						   
+.lugar ul.sub-lugar li{list-style:none;}			 
+.lugar:hover ul.sub-lugar li.sub-lugar-listado{padding:10px 0px 10px 0px;
+                                                display:block; 
+										        color:black;
+										        border-bottom:1px solid #e4e4e4;}
+.lugar:hover ul.sub-lugar li.sub-lugar-listado:hover{background:#e4e4e4;}	
+.lugar:hover ul.sub-lugar li.sub-lugar-listado a {list-style:none;
+                                                  color:black;}
+												  
+.historial{color:#808080;
+           padding:5px 0px;}	
+		   
+.historial p {display:inline-block;
+             background:#e4e4e4;
+			 padding:5px;
+			 margin:5px;}	
+
+.historial p:hover{opacity:0.7;}			   
+/* FINAL centro-3*/
+
+/*Empieza la parte responsive
+*****************************************/
+
+@media screen and (max-width:1100px){
+.contenido-muro{margin:40px 0px 40px 30%;}
+}
+@media screen and (max-width:1000px){
+.contenido-muro{margin:40px 0px 40px 25%;}
+						
+.tabs-nav {margin: 0px 0px 0px 8%;}	
+.buscador-sinfiltros input{padding:10px 300px 10px 10px;
+                          font-size:190%;}
+.buscador-sinfiltros input.buscar{padding:19px 10px 12px 10px;
+                                 font-size:120%;}
+}
+@media screen and (max-width:900px){
+.contenido-muro{margin:40px 0px 40px 20%;}
+
+.tabs-nav {margin: 0px 0px 0px 8%;}	
+.buscador-sinfiltros input{padding:10px 250px 10px 10px;
+                          font-size:180%;}
+.buscador-sinfiltros input.buscar{padding:19px 10px 12px 10px;
+                                 font-size:120%;}
+}
+@media screen and (max-width:800px){
+.contenido-muro{margin:40px 0px 40px 15%;}
+
+.tabs-nav {margin: 0px 0px 0px 6%;}	
+.buscador-sinfiltros input{padding:10px 220px 10px 10px;
+                          font-size:160%;}
+.buscador-sinfiltros input.buscar{padding:16px 10px 12px 10px;
+                                 font-size:120%;}
+}
+@media screen and (max-width:700px){
+.contenido-muro{margin:40px 0px 40px 10%;}
+
+.tabs-nav {margin: 0px 0px 0px 4%;}	
+.buscador-sinfiltros input{padding:10px 150px 10px 10px;
+                          font-size:150%;}
+.buscador-sinfiltros input.buscar{padding:14px 10px 12px 10px;
+                                 font-size:120%;}
+}
+@media screen and (max-width:600px){
+.contenido-muro{margin:40px 0px 40px 5%;}
+
+.tabs-nav {margin: 0px 0px 0px 2%;}	
+
+.buscador-sinfiltros input{padding:10px 50px 10px 10px;
+                          font-size:140%;}
+.buscador-sinfiltros input.buscar{padding:14px 10px 12px 10px;
+                                 font-size:110%;}
+}
+@media screen and (max-width:500px){
+.contenido-muro {width: 90%;}
+.imagen-tienda-muro{width: 40px; height:40px;}
+.nombre-tienda-muro{font-size:80%;}
+.nombre-producto-muro{margin:5px 0px 0px 0px;font-size:80%;}
+.informacion4-muro{margin:0px 0px 0px -35px;}
+li.megusta-si-muro {font-size:25px;}
+li.megusta-si-muro input{width:25px; height:25px;}			 
+li.megusta-no-muro {font-size:25px;}				 
+li.megusta-no-muro input{width:25px; height:25px;}
+.mostrar-numero-megustas-muro{font-size:80%;}	
+.precio-muro{font-size:110%;}
+							   
+.tabs-nav {margin: 0px 0px 0px 0%;}		  
+.tabs-nav li{padding: 15px 15px;}
+
+.buscador-sinfiltros input{padding:10px 20px 10px 10px;
+                          font-size:120%;}
+.buscador-sinfiltros input.buscar{padding:14px 10px 12px 10px;
+                                 font-size:89%;}
+								 
+.categoria,.colores,.tallas,.lugar{display:inline-block; font-size:80%; margin:10px 0px 0px 0px;}
+.categoria ul.sub-categoria,.colores ul.sub-colores,.tallas ul.sub-tallas,.lugar ul.sub-lugar{left:0;}
+
+}
+@media screen and (max-width:400px){
+.buscador-sinfiltros input{padding:10px 0px 10px 10px;
+                          font-size:100%;}
+.buscador-sinfiltros input.buscar{padding:14px 10px 12px 10px;
+                                 font-size:70%;}
+}

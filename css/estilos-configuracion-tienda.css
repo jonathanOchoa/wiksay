@@ -1,0 +1,144 @@
+span{font-size:120%}
+
+a{text-decoration: none;}
+
+#gloval{width:100%;
+        max-width:1366px;
+        margin:0 auto;
+	    box-shadow:px;
+		font-family: "proxima_nova_ltsemibold","Helvetica Neue",Verdana,Arial,sans-serif;}
+		
+.configuracion{width:700px; 
+               margin:10px 0px 20px 0px;
+               padding:10px 0px 10px 0px;
+               background:white;
+			   box-shadow: 0 0 2px rgba(0,0,0,0.5);}
+			   
+.configuracion p{width:100%; 
+                 font-size:200%;}		
+/* final de las imagenen*/
+.formulario-imagen{padding:0px 0px 20px 0px;}
+
+.imagen{width: 350px;
+               height: 350px;
+               border-radius: 50%;
+               box-shadow: 0 0 2px rgba(0,0,0,0.5);}
+		
+.imagen-imagen{width: 350px;
+                      height: 350px;
+					  border-radius: 50%;
+					  position:absolute;
+					  opacity:0;}	
+
+.guardar-imagen{margin:10px 0px 0px 0px;}
+.guardar-imagen input{padding:10px 20px 10px 20px;
+                            border-radius:8px;
+					        color:white;
+					        font-size:15px;
+					        box-shadow: 0 0 2px rgba(0,0,0,0.5);
+                            background: -moz-linear-gradient(top,#444 0,#333 100%);
+                            background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#444),color-stop(100%,#333));
+                            background: -webkit-linear-gradient(top,#444 0,#333 100%);
+                            background: -o-linear-gradient(top,#444 0,#333 100%);
+                            background: -ms linear gradient(top,#444 0,#333 100%);
+                            background: linear-gradient(top,#444 0,#333 100%)}	
+.guardar-imagen input:hover{opacity:0.85;}
+/* final de las imagenen*/
+
+/* inicio de la informacion*/
+.formulario-informacion{width:100%; margin:0px;}
+.formulario{width:70%; margin:0px 10% 0px 20%;}
+.pregunta{display:block; width:100%; padding:5px 0px;}
+.respuesta{display:block; width:85%;background:white; border:px solid; padding:5px 5px; box-shadow: 0 0 2px rgba(0,0,0,0.5); border-radius:8px;}
+.respuesta input{width:100%; border:none;padding:6px 0px;}
+
+                 /* inicio: social */
+li.social ,li.youtube ,li.whatsapp{list-style:none;}
+li.social a ,li.youtube a ,li.whatsapp a{display:inline-block;
+									 border-radius:1000px;
+									 margin:0px 5px 5px 0px;
+									 color:white;
+									 background:black;
+									 padding:15px;
+									 text-decoration:none;
+									 -webkit-transition:500ms ease;
+									 -o-transition:500ms ease;
+									 transition:500ms ease;}
+li.social a.icon-facebook{background:#3b5998;}
+li.whatsapp a{background: #72D31D; padding:13px;}
+li.social a.icon-instagram{background:#3f729b;}
+li.social a.icon-twitter{background:#00abf0;}
+li.youtube a{background: #c4302b; padding:13px;}
+li.social a.icon-googleplus{background:#d95232;}
+li.social a.icon-pinterest{background:#ae181f;}
+li.social a.icon-linkedin{background:#006fa6;}
+li.social a.icon-location{background:#c4302b;}
+                 
+li.social a:hover ,li.youtube a:hover ,li.whatsapp a:hover{padding:20px; margin:-5px 0px 0px -5px;
+                                                      background: -moz-linear-gradient(top,#545454 0,#333 100%);
+													  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#545454),color-stop(100%,#333));
+													  background: -webkit-linear-gradient(top,#545454 0,#333 100%);
+													  background: -o-linear-gradient(top,#545454 0,#333 100%);
+													  background: -ms linear gradient(top,#545454 0,#333 100%);
+													  background: linear gradient(top,#545454 0,#333 100%)}
+                 /*final: social*/	
+.guardar-informacion{width:40%; margin:0px 40% 0px 20%;}
+.guardar-informacion input{padding:10px 20px 10px 20px;
+                     border-radius:8px;
+					 color:white;
+					 font-size:15px;
+					 box-shadow: 0 0 2px rgba(0,0,0,0.5);
+                     background: -moz-linear-gradient(top,#444 0,#333 100%);
+                     background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#444),color-stop(100%,#333));
+                     background: -webkit-linear-gradient(top,#444 0,#333 100%);
+                     background: -o-linear-gradient(top,#444 0,#333 100%);
+                     background: -ms linear gradient(top,#444 0,#333 100%);
+                     background: linear-gradient(top,#444 0,#333 100%)}	
+.guardar-informacion input:hover{opacity:0.85;}
+/* final de la informacion*/
+/*inicio avisos*/
+div a div.proceso{padding:10px 10px;
+			   background:#EEFFF2;
+			   border:1px solid #05AE0F;
+			   border-radius:0px;
+			   color:#05AE0F;
+			   max-width:400px;
+			   margin:15px 0px 0px 0px;}
+
+
+div a div.proceso1{padding:10px 10px;
+				  background:#FFEEEE;
+				  border:1px solid #D70404;
+				  border-radius:0px;
+				  color:#D70404;
+				  max-width:400px;
+				  margin:15px 0px 0px 0px;}
+/*fin avisos*/	
+/*Empieza la parte responsive
+*****************************************/
+@media screen and (max-width:900px){
+.imagen{width: 300px;
+               height: 300px;}
+		
+.imagen-imagen{width:300px;
+					  height:300px;}
+}
+@media screen and (max-width:730px){
+.configuracion{width:100%;
+			   margin:-20px 0px 20px 0px;}
+}
+@media screen and (max-width:450px){
+.imagen{width: 200px;
+               height: 200px;}
+		
+.imagen-imagen{width:200px;
+					  height:200px;} 
+					  
+.formulario-informacion{width:100%; margin:0px;}
+.formulario{width:100%; margin:0px;}
+.pregunta{width:92%; margin:0px 2%;}
+.respuesta {width:92%; margin:0px 2%;}
+
+}	
+
+	

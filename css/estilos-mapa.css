@@ -1,0 +1,30 @@
+body{background:white;
+	 margin:0 auto;
+    }
+
+span{font-size:120%}
+
+a{text-decoration: none;}
+
+#gloval{width:1366px;
+        margin:0 auto;
+		margin:-40px 0px 0px 0px;
+	    box-shadow:0px 0.1px 9px 0px;}
+		
+#map-canvas{margin:70px 0px 0px 180px;
+            width:1000px; 
+	        height:450px;
+		padding:70px 0px 0px 0px;}
+
+.agrupacion{margin:40px 0px 0px 300px;}			
+.busqueda{display:inline-block;
+        margin:0px 70px 0px 0px;}
+		
+.mostrar-tiendas-alrededor{display:inline-block;
+                           margin:0px 70px 0px 0px;}
+						   
+.buscar{display:inline-block;
+        color:white;
+		background:black;
+		padding:4px 30px;
+		border-radius:2px;}

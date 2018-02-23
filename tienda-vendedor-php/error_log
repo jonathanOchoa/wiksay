@@ -1,0 +1,4 @@
+[20-Jan-2016 20:37:58 Europe/Madrid] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/fhmjch8m28/public_html/tienda-vendedor-php/proceso-subir.php on line 45
+[20-Jan-2016 20:37:58 Europe/Madrid] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/fhmjch8m28/public_html/tienda-vendedor-php/proceso-subir.php on line 46
+[20-Jan-2016 20:45:08 Europe/Madrid] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/fhmjch8m28/public_html/tienda-vendedor-php/proceso-subir.php on line 45
+[20-Jan-2016 20:45:08 Europe/Madrid] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/fhmjch8m28/public_html/tienda-vendedor-php/proceso-subir.php on line 46

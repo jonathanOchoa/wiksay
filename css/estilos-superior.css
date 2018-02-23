@@ -1,0 +1,177 @@
+/*----------inicio del div superior--------------------------------*/ 
+
+
+.superior{display:block;
+          list-style-type:none;
+		  position:fixed;
+		  top:0;
+		  width:100%;
+		  max-width:1366px;
+	      padding:0px 0px;
+		  margin: 0px;
+		  z-index:3;
+		  margin:0px 0px 0px 0px;
+		  box-shadow:0px 0px 9px 0px;
+		  background: black;}
+
+nav.menu{display:inline-block;
+        width:100%;
+		background: black;}
+
+nav ul li {display:inline-block;
+	    color:white;
+	    cursor: pointer;}
+nav ul li.menu1{font-family: 'Playball', cursive;
+                font-size:160%;
+                margin:-8px 80% 0px 5%;
+                padding:0px 0px 0px 0px;
+                float:left;}	
+			  
+nav ul li.menu1 :hover {color:#E3E5E7;}
+
+nav ul li.menu2{margin:0px 15px 0px 0%; 
+             padding:0px 0px 0px 0px;
+             font-family: "proxima_nova_ltsemibold","Helvetica Neue",Verdana,Arial,sans-serif;
+	     font-size:100%;}		 
+nav ul li.menu2 :hover {color:#E3E5E7;}
+			 			 
+nav ul li.menu3{margin:0px 15px 0px 0%; 
+              padding:0px 0px 0px 0px;
+			  font-family: "proxima_nova_ltsemibold","Helvetica Neue",Verdana,Arial,sans-serif;
+			  font-size:110%;}
+nav ul li.menu3 :hover {color:#E3E5E7;}
+			
+nav ul li.menu4{margin:0px 0% 0px 0%; 
+              padding:0px 0% 0px 0px;
+			  font-family: "proxima_nova_ltsemibold","Helvetica Neue",Verdana,Arial,sans-serif;
+			  font-size:90%;}			 
+nav ul li.menu4 :hover {color:#E3E5E7;}	
+nav ul li.menu4 span {font-size:170%;}
+
+nav ul li.menu10{margin:0px 0% 0px 0%; 
+              padding:0px 0% 0px 0px;
+			  font-family: "proxima_nova_ltsemibold","Helvetica Neue",Verdana,Arial,sans-serif;
+			  font-size:90%;}			 
+nav ul li.menu10 :hover {color:#E3E5E7;}	
+nav ul li.menu10 span {font-size:170%;}
+		 
+nav ul li a {color:white; text-decoration:none;}
+
+.menu2 span.cesta_cantidad{background:red;
+                           border-radius:50%;
+						   padding:1px 5px;
+						   font-size:14px;
+						   top:0px;}
+						   
+.menu3 span.cesta_cantidad{background:red;
+                           border-radius:50%;
+						   padding:1px 5px;
+						   font-size:14px;
+						   top:0px;}	
+						   
+.menu4 ul.sub-menu4{background:white;
+                   color: #555;
+                   padding:10px;
+				   margin:0px 0px 0px -240px;
+			       display:none;
+				   border:1px solid #e4e4e4;
+				   border-radius:8px;
+				   width:250px;
+				   box-shadow: 0 0 20px rgba(0,0,0,0.5);}
+.menu4 ul.sub-menu4 a{color: #555;}
+							
+.menu4:hover ul.sub-menu4{display:block; 
+                         position:absolute; 
+					     z-index:1;}	
+			
+.menu4:hover ul.sub-menu4 li.sub-menu4-sub{padding:10px 0px 10px 0px;
+                                         display:block; 
+										 color:black;
+										 border-bottom:1px solid #e4e4e4;}	
+										 
+.menu10 ul.sub-menu10{background:white;
+					   color: #555;
+					   padding:10px;
+					   margin:0px 0px 0px -240px;
+					   display:none;
+					   border:1px solid #e4e4e4;
+					   border-radius:8px;
+					   width:250px;
+				       box-shadow: 0 0 20px rgba(0,0,0,0.5);}
+.menu10 ul.sub-menu10 a{color: #555;}
+							
+.menu10:hover ul.sub-menu10{display:block; 
+                            position:absolute; 
+					        z-index:1;}	
+			
+.menu10:hover ul.sub-menu10 li.sub-menu10-sub{padding:10px 0px 10px 0px;
+                                            display:block; 
+										    color:black;}		
+										 
+.imagen-cuenta{display: inline-block;
+				  width: 40px;
+				  height:40px;
+				  margin:20px 0px 0px 0px;
+				  background-size: 100% 100%;
+				  vertical-align: top;
+				  padding:0px;}
+
+.imagen-cuenta figure{width: 100%;
+						height:100%;
+						margin: 0px;}
+ 
+.imagen-cuenta figure img{width: 100%;
+							height:100%;
+							border: 0px;
+							border-radius:50%;
+							box-shadow: 0 0 2px rgba(0,0,0,0.5);}
+							
+.nombre-cuenta{display: inline-block; }
+.nombre-cuenta-1{color:#8c9ca9;}
+.nombre-cuenta-2{color:#8c9ca9;}
+
+.notificacion_cantidad{background:red;
+					   border-radius:50%;
+					   padding:2px 5px;
+					   display:inline-block;
+					   color:white;
+					   font-family: "proxima_nova_ltsemibold","Helvetica Neue",Verdana,Arial,sans-serif;
+			           font-size:100%;}			   
+/*----------final del div superior--------------------------------*/ 
+
+@media screen and (max-width:1200px){
+nav ul li.menu1{margin:-8px 78% 0px 5%;}
+}
+@media screen and (max-width:1100px){
+nav ul li.menu1{margin:-8px 76% 0px 5%;}
+}
+@media screen and (max-width:1000px){
+nav ul li.menu1{margin:-8px 74% 0px 5%;}
+}
+@media screen and (max-width:900px){
+nav ul li.menu1{margin:-8px 72% 0px 5%;}
+}
+@media screen and (max-width:800px){
+nav ul li.menu1{margin:-8px 70% 0px 5%;}
+}
+@media screen and (max-width:700px){
+nav ul li.menu1{margin:-8px 68% 0px 5%;}
+}
+@media screen and (max-width:600px){
+nav ul li.menu1{margin:-8px 64% 0px 5%;}
+}
+@media screen and (max-width:500px){
+nav ul li.menu1{margin:-8px 62% 0px 5%;}
+}
+@media screen and (max-width:500px){
+nav ul li.menu1{margin:-8px 60% 0px 5%;}
+}
+@media screen and (max-width:450px){
+nav ul li.menu1{margin:-8px 56% 0px 0%;}
+}
+@media screen and (max-width:400px){
+nav ul li.menu1{margin:-8px 54% 0px 0%;}
+}
+@media screen and (max-width:350px){
+nav ul li.menu1{margin:-8px 48% 0px 0%;}
+}

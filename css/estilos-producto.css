@@ -1,0 +1,349 @@
+body{background-color: rgb(231,238,247);
+	 margin:0 auto;
+    }
+
+span{font-size:120%;}
+
+a{text-decoration: none;}
+
+#gloval{width:100%;
+        max-width:1366px;
+        margin:0 auto;}
+
+.centro {width:100%;
+        max-width:1366px;
+		padding:40px 0px 0px 0px;
+		margin:0px 0px 0px 0px;
+		display:inline-block;}		
+		
+ .article{display: inline-block;
+          width:500px;
+		  height:500px;
+          position: relative;
+          vertical-align: top;
+		  margin:50px 0px 0px 5%;
+          padding:0px;
+		  box-shadow: 0 0 2px rgba(0,0,0,0.5)
+          background:white;}
+		 
+.slider{height:100%;
+        width:100%;
+		margin:auto;
+		position:relative;
+		list-style:none;
+		padding:0px;
+		display:flex;
+		justify-content:center;
+		align-items:flex-end;
+		}
+		
+.article img {position: absolute;
+            top:0;
+			left:0;
+			max-width:100%;
+			height:100%;
+			opacity:0;
+			box-shadow: 0 0 2px rgba(0,0,0,0.5)}
+			
+.article input[type="radio"]{display:none;}
+							
+.article input[type="radio"]:checked ~ img {opacity:1;}
+
+.article input[type="radio"] + label {position:relative;
+                                 z-index:1;
+								 width: 15px;
+		                         height:15px;
+								 display:block;
+								 margin:10px;
+								 background: black;
+								 border-radius:50%;
+								 border:1px solid white;}
+ 
+.article input[type="radio"]:checked + label {background:white;
+								         z-index:1;
+										 border:1px solid black;}
+/*inicio avisos*/
+.proceso1{padding:10px 10px;
+		  background:#FFEEEE;
+		  border:1px solid #D70404;
+		  border-radius:0px;
+		  color:#D70404;
+		  max-width:400px;
+		  margin:15px 0px 0px 0px;}
+/*fin avisos*/				  
+.especificaciones{box-shadow: 0 0 2px rgba(0,0,0,0.5);
+                  border-radius:4px 4px 0px 0px;
+                  display: inline-block;
+				  margin:50px 0px 0px 20px; 
+				  width:45%;
+				  background:white;}
+				  
+.especificaciones li {display:inline-block;
+                    width:100px;
+				    margin:0px 0px 5px 0px;
+                    padding:0px 0px 0px 0px;}
+					
+.especificaciones li.nombre-producto{display:inline-block; width:520px; font-family: "proxima_nova_ltsemibold","Helvetica Neue",Verdana,Arial,sans-serif;
+	                               font-size:200%;}
+.especificaciones a li.respuesta-10{text-decoration:none; color:black;}	
+.especificaciones li.respuesta-10-precio{font-size:230%;display:inline-block; width:65%; color:#F60;}
+.especificaciones li.pregunta-10{display:inline-block; width:120px; float:left; color:#999;}
+.especificaciones li.respuesta-10{display:inline-block; width:65%;}		
+.especificaciones li.respuesta-10 a{list-style:none; color:black;}				
+.especificaciones li.respuesta-10 div {display:inline-block;}	
+.especificaciones li.respuesta-10 div.mes-año {display:block;}
+
+.especificaciones li.respuesta-10 div.colores-sinseleccionada{border-radius:50%;}
+.especificaciones li.respuesta-10 div.tallas-sinseleccionada{padding:5px 10px;  margin:2px; border-radius:1px; box-shadow: 0 0 5px rgba(0,0,0,10);}
+.especificaciones li.respuesta-10 div.tallas-sinseleccionada:hover{background:#9197a3;}
+						 
+.Negro{background:black;width:25px; height:25px; border-radius:50%; display:inline-block;}
+.Blanco{background:white;width:25px; height:25px; border-radius:50%; border:1px solid; display:inline-block;}
+.Gris{background:#949494;width:25px; height:25px; border-radius:50%; display:inline-block;}
+.Marron{background:brown;width:25px; height:25px; border-radius:50%; display:inline-block;}
+.Beige{background:beige;width:25px; height:25px; border-radius:50%; border:1px solid; display:inline-block;}
+.Rojo{background:red;width:25px; height:25px; border-radius:50%; display:inline-block;}
+.Rosa{background:pink;width:25px; height:25px; border-radius:50%; display:inline-block;}
+.Naranja{background:#F60;width:25px; height:25px; border-radius:50%; display:inline-block;}
+.Amarillo{background:#FBF703;width:25px; height:25px; border-radius:50%; display:inline-block;}
+.Verde{background:green;width:25px; height:25px; border-radius:50%; display:inline-block;}
+.Azul{background:#0066c0;width:25px; height:25px; border-radius:50%; display:inline-block;}
+.Morado{background:purple;width:25px; height:25px; border-radius:50%; display:inline-block;}
+.Oro{background:#DA9100;width:25px; height:25px; border-radius:50%; display:inline-block;}
+.Plata{background:#D7DCDE;width:25px; height:25px; border-radius:50%; display:inline-block;}
+.Claro{background:F5FFFA;width:25px; height:25px; border-radius:50%; border:1px solid; display:inline-block;}
+.Multiples{width:25px; height:25px; border-radius:50%; display:inline-block; 
+           background: -moz-linear-gradient(top,red 0,#FB09F7 20%,#3A09FB 40%,#09FBEE 60%,#09FB41 80%,yellow 100%);
+           background: -webkit-gradient(top,red 0,#FB09F7 20%,#3A09FB 40%,#09FBEE 60%,#09FB41 80%,yellow 100%);
+           background: -webkit-linear-gradient(top,red 0,#FB09F7 20%,#3A09FB 40%,#09FBEE 60%,#09FB41 80%,yellow 100%);
+           background: -o-linear-gradient(top,red 0,#FB09F7 20%,#3A09FB 40%,#09FBEE 60%,#09FB41 80%,yellow 100%);
+           background: -ms linear gradient(top,red 0,#FB09F7 20%,#3A09FB 40%,#09FBEE 60%,#09FB41 80%,yellow 100%);
+           background: linear gradient(top,red 0,#FB09F7 20%,#3A09FB 40%,#09FBEE 60%,#09FB41 80%,yellow 100%);}
+		   
+.especificaciones .agregar-cesta{width:80%;color:white;
+								padding:8px 0px;
+								cursor:pointer;
+								margin:0px 0px 0px 6%;
+								position:relative;
+								border: 2px solid #7ab008 #76a80d #779539;
+								border-radius:4px;
+								background: -moz-linear-gradient(top,#444 0,#333 100%);
+								background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#444),color-stop(100%,#333));
+								background: -webkit-linear-gradient(top,#444 0,#333 100%);
+								background: -o-linear-gradient(top,#444 0,#333 100%);
+								background: -ms linear gradient(top,#444 0,#333 100%);
+								background: linear-gradient(top,#444 0,#333 100%)}
+
+.especificaciones .agregar-cesta input{text-decoration:none; 
+                                      opacity:0; 
+									  position:absolute; 
+									  padding:8px 50%;
+									  margin:-8px 0px 0px -50%; 
+									  cursor:pointer;}
+						 
+.agregar-cesta:hover{background: -moz-linear-gradient(top,#545454 0,#333 100%);
+					 background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#545454),color-stop(100%,#333));
+					 background: -webkit-linear-gradient(top,#545454 0,#333 100%);
+					 background: -o-linear-gradient(top,#545454 0,#333 100%);
+					 background: -ms-linear-gradient(top,#545454 0,#333 100%);
+					 background: linear-gradient(top,#545454 0,#333 100%)}	
+
+.agregar-cesta ul.agregar-cesta-sub{color: #555;
+									padding:10px;
+									width:150px;
+									display:none;
+									border:1px solid #e4e4e4;
+									border-radius:8px;
+									box-shadow: 0 0 20px rgba(0,0,0,0.5);
+									background: -moz-linear-gradient(top,#545454 0,#333 100%);
+									background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#545454),color-stop(100%,#333));
+									background: -webkit-linear-gradient(top,#545454 0,#333 100%);
+									background: -o-linear-gradient(top,#545454 0,#333 100%);
+									background: -ms-linear-gradient(top,#545454 0,#333 100%);
+									background: linear-gradient(top,#545454 0,#333 100%)}
+									
+.agregar-cesta ul.agregar-cesta-sub a{color: #555;}
+							
+.agregar-cesta:hover ul.agregar-cesta-sub{display:block; 
+										 position:absolute; 
+										 color:black;
+										 z-index:1;}	
+			
+.agregar-cesta:hover ul.agregar-cesta-sub li.agregar-cesta-sub-info{padding:10px 0px 10px 0px;
+															 	 display:block; 
+																 color:white;
+																 border-bottom:1px solid #e4e4e4;}
+
+li.boton-megusta{margin:0px 0px 0px -40px;}
+
+li.megusta-si {font-size:40px; color:#E40C17;}
+li.megusta-si input{background-color:white;
+                 position:absolute;
+				 opacity:0;
+				 padding:0px;
+				 margin:0px;
+                 width:40px;
+				 height:40px;
+                 text-decoration:none;}
+				 
+li.megusta-no {font-size:40px; color:#9197a3;}				 
+li.megusta-no input{background-color:white;
+                 position:absolute;
+				 opacity:0;
+				 padding:0px;
+				 margin:0px;
+                 width:40px;
+				 height:40px;
+                 text-decoration:none;}
+li.mostrar-numero-megustas{color:#9197a3; width:200px; }
+		   
+.tabs-nav {width:100%;
+           padding: 0;
+           list-style:none;
+		   overflow: auto;
+		   margin: 0px 0px 0px 0px;}
+		  
+.tabs-nav li{width:50%;
+            float:left;
+			margin-right:0px;
+			box-shadow: 0 0 2px rgba(0,0,0,0.5);
+			padding: 17px 0px;
+			background:white;}
+	
+.tabs-nav li a{text-decoration: none;
+             color:black;
+             }	  
+			 
+.detalles a{color:black; font-family: "proxima_nova_ltsemibold","Helvetica Neue",Verdana,Arial,sans-serif; font-size:90%;}
+.comentarios a{color:black; font-family: "proxima_nova_ltsemibold","Helvetica Neue",Verdana,Arial,sans-serif; font-size:90%;}	
+		
+.contenido{margin:0px 0px 0px 0px;
+           width:100%;
+		   box-shadow: 0 0 2px rgba(0,0,0,0.5);
+           padding:15px 0px;
+           background: #f2f3f3;}
+.numero-comentarios p{margin:0px 0px 0px 15px; color:#9197a3;}
+
+.escribir-comentario {width:88%; 
+                      height:100px;
+			          margin:0px 5% 20px 5%;}	
+					  
+.escribir-comentario textarea{width:100%; 
+                     height:100px; 
+					 margin:0px; 
+					 padding:7px;
+					 border:none;
+					 border-radius:8px;
+			         box-shadow: 0 0 2px rgba(0,0,0,0.5)}
+					 
+.enviar-comentario input{padding:7px 12px;
+						border:none;
+						margin:0px 0px 20px 0px;
+						border-radius:8px;
+						box-shadow: 0 0 2px rgba(0,0,0,0.5)}
+.enviar-comentario input:hover{opacity:0.8;}				  
+
+li.contenido-detalles{width:97%; padding:0px 0px 0px 3%;}
+li.contenido-comentarios{width:80%;}
+li.eliminar-comentarios{width:0px}
+span.icon-trash{color:black;}
+
+/*Empieza la parte responsive
+*****************************************/
+@media screen and (max-width:1100px){
+ .article{margin:50px 5px 0px 5px;}
+		  
+.especificaciones{display:inline-block;
+				  margin:50px 0px 0px 0%; }
+}
+@media screen and (max-width:1000px){
+
+.article{margin:50px 5px 0px 25%;}
+		  
+.especificaciones{display:block;
+                  width:500px;
+				  margin:50px 0px 0px 25%;; }
+
+.contenido{width:500px;}		 				  
+}
+@media screen and (max-width:900px){
+.article{margin:50px 0px 0px 20%;}	  
+.especificaciones{margin:0px 0px 0px 20%;; }	  
+}
+@media screen and (max-width:800px){
+.article{margin:50px 0px 0px 10%;}	  
+.especificaciones{margin:0px 0px 0px 10%;; }	  
+}
+@media screen and (max-width:700px){
+.article{margin:50px 0px 0px 5%;}	  
+.especificaciones{margin:0px 0px 0px 5%;; }	  
+}
+@media screen and (max-width:600px){
+.article{width:100%;margin:50px 0px 0px 0%;}	  
+.especificaciones{width:100%; margin:0px 0px 0px 0%; }	
+.especificaciones li.pregunta-10, .especificaciones li.pregunta-10-precio, .especificaciones li.nombre-producto{width:100%; display:block; margin:0px 0px 0px 0%;}
+.contenido{width:100%; margin:0px;}	
+.especificaciones .agregar-cesta input{text-decoration:none; opacity:1; position:absolute; padding:8px 45%; margin:-8px 0px 0px -45%;}
+}
+@media screen and (max-width:490px){
+.article{height:490px;}	  
+}
+@media screen and (max-width:480px){
+.article{height:480px;}	  
+}
+@media screen and (max-width:470px){
+.article{height:470px;}	  
+}
+@media screen and (max-width:460px){
+.article{height:460px;}	  
+}
+@media screen and (max-width:450px){
+.article{height:450px;}	
+.especificaciones .agregar-cesta input{text-decoration:none; opacity:1; position:absolute; padding:8px 40%; margin:-8px 0px 0px -40%;}  
+}
+@media screen and (max-width:440px){
+.article{height:440px;}	  
+}
+@media screen and (max-width:430px){
+.article{height:430px;}	  
+}
+@media screen and (max-width:420px){
+.article{height:420px;}	  
+.especificaciones .agregar-cesta input{text-decoration:none; opacity:1; position:absolute; padding:8px 35%; margin:-8px 0px 0px -35%;} 
+}
+@media screen and (max-width:410px){
+.article{height:410px;}	  
+}
+@media screen and (max-width:400px){
+.article{height:400px;}	
+}
+@media screen and (max-width:390px){
+.article{height:390px;}	  
+}
+@media screen and (max-width:380px){
+.article{height:380px;}	  
+}
+@media screen and (max-width:370px){
+.article{height:370px;}	  
+}
+@media screen and (max-width:360px){
+.article{height:360px;}	  
+}
+@media screen and (max-width:350px){
+.article{height:350px;}	  
+}
+@media screen and (max-width:340px){
+.article{height:340px;}	  
+}
+@media screen and (max-width:330px){
+.article{height:330px;}	  
+}
+@media screen and (max-width:320px){
+.article{height:320px;}	  
+}
+@media screen and (max-width:310px){
+.article{height:310px;}	  
+}
+@media screen and (max-width:300px){
+.article{height:300px;}	  
+}
